@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Leandro Guedes</h1>
+    <nav>
+        <button id="menu-btn">☰</button>
+        <ul id="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Contato</h2>
+
+        <form id="form">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="email" id="email" placeholder="Email">
+            <textarea id="mensagem" placeholder="Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="erro"></p>
+
+        <h3>Ou entre em contato diretamente:</h3>
+
+        <p>Email: 
+            <a href="mailto:leandroguedes110@gmail.com">
+                leandroguedes110@gmail.com
+            </a>
+        </p>
+
+        <p>Telefone: 
+            <a href="tel:81999107520">
+                (81) 99910-7520
+            </a>
+        </p>
+
+    </section>
+</main>
+
+<footer>
+    <button onclick="toggleDarkMode()">Modo Dark</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #fff;
+    color: #000;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-btn {
+    display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+    #menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+}
+
+.dark {
+    background: #111;
+    color: #fff;
+}
